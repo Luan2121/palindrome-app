@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  backend:
+    build: "./server-app"
+
+  frontend:
+    build: "./client-app"
+    depends_on:
+      - backend
