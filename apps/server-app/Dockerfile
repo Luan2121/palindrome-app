@@ -9,7 +9,7 @@ COPY yarn.lock .
 COPY package.json .
 
 # run the command inside the image filesystem
-RUN yarn --prod --frozen-lockfile
+RUN yarn
 
 # copy the rest of the app's source code from the host to the image filesystem
 COPY . .
