@@ -9,9 +9,10 @@
     "dev": "nodemon --exec npm run babel-node -- src/index.js",
     "clean": "rm -rf build && mkdir build",
     "build": "npm run clean && babel -d ./build ./src -s",
-    "start": "npm run build && node ./build/index.js",
+    "start": "node ./build/index.js",
     "format": "standard --fix",
-    "standard": "standard"
+    "standard": "standard",
+    "docker": "docker build -t server-app:latest . && docker run --name server-app:latest -d -p 4000:4000"
   },
   "keywords": [],
   "author": "Luan2121",
