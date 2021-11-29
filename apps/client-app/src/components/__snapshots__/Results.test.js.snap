@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Results Component should render correctly 1`] = `
+<DocumentFragment>
+  <main
+    class="p-5 container"
+  >
+    <div
+      class="p-4 bg-body w-100"
+    >
+      <h2
+        class="mb-4 d-block"
+      >
+        Results:
+      </h2>
+      <div
+        class="justify-content-center row"
+      >
+        <div
+          class="text-center"
+        >
+          <h3>
+            It looks like you haven't used the app
+          </h3>
+          <p>
+            Try it wrinting a text like: Was it a car or a cat I saw.
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+</DocumentFragment>
+`;

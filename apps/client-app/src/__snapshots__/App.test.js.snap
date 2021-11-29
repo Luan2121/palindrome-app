@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component it should render without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="bg-secondary p-4 d-flex justify-content-center m-0 container-fluid"
+  >
+    <div
+      class="justify-content-center w-100 row row-cols-md-6"
+    >
+      <form
+        class="d-flex col-md-6"
+      >
+        <div
+          class="me-3 w-100"
+        >
+          <input
+            class="form-control"
+            placeholder="Insert Text"
+            value=""
+          />
+        </div>
+        <button
+          class="btn btn-primary"
+          disabled=""
+          type="submit"
+        >
+          Send
+        </button>
+      </form>
+    </div>
+  </div>
+  <main
+    class="p-5 container"
+  >
+    <div
+      class="p-4 bg-body w-100"
+    >
+      <h2
+        class="mb-4 d-block"
+      >
+        Results:
+      </h2>
+      <div
+        class="justify-content-center row"
+      >
+        <div
+          class="text-center"
+        >
+          <h3>
+            It looks like you haven't used the app
+          </h3>
+          <p>
+            Try it wrinting a text like: Was it a car or a cat I saw.
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+</DocumentFragment>
+`;

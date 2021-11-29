@@ -8,7 +8,7 @@
     "babel-node": "babel-node",
     "dev": "nodemon --exec npm run babel-node -- src/index.js",
     "build": "babel src --out-dir build",
-    "start": "node build/index.js",
+    "start": "yarn build && node build/index.js",
     "format": "standard --fix",
     "standard": "standard"
   },
