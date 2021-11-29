@@ -3,7 +3,10 @@ import thunk from "redux-thunk";
 import reducers from "./ducks";
 
 const configureStore = () => {
-  let store = createStore(reducers,applyMiddleware(thunk))
+  let store = createStore(
+    reducers,
+    applyMiddleware(thunk)
+  );
   return store;
 }
 

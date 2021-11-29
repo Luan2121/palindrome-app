@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form Component should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="justify-content-center w-100 row row-cols-md-6"
+  >
+    <form
+      class="d-flex col-md-6"
+    >
+      <div
+        class="me-3 w-100"
+      >
+        <input
+          class="form-control"
+          placeholder="Insert Text"
+          value=""
+        />
+      </div>
+      <button
+        class="btn btn-primary"
+        disabled=""
+        type="submit"
+      >
+        Send
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;
