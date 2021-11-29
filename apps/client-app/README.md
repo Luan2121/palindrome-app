@@ -15,7 +15,7 @@ Then you can start the app by using  the command `yarn start`
 
 ### What about production?
 
-Build the project using the command  `yarn build` then make it available using the command  `yarn serve` and have fun 🤩
+Build the project using the command  `yarn build` then make it available using the command  `yarn serve` (remember that you must install serve as a local or global dependencie) and have fun 🤩
 
 ### 😎 Cool tip (Docker)
 If you are a cool guy  you can run the project using [docker](https://www.docker.com/) by running the command `docker-compose up -d`
