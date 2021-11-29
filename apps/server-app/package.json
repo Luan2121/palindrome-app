@@ -7,8 +7,9 @@
     "test": "mocha --require @babel/register 'src/test/**/*.js'",
     "babel-node": "babel-node",
     "dev": "nodemon --exec npm run babel-node -- src/index.js",
-    "build": "babel src --out-dir build",
-    "start": "node ./build/index.js",
+    "clean": "rm -rf build && mkdir build",
+    "build": "npm run clean && babel -d ./build ./src -s",
+    "start": "npm run build && node ./build/index.js",
     "format": "standard --fix",
     "standard": "standard"
   },
