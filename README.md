@@ -10,7 +10,7 @@ Palindrome app is a simple project that let you know if a text or word is palind
 The project is splitted into two apps, server app or backend and client app or frontend you can checkout the code of those projects here:
 
  - [Client App's  source
-   code](https://github.com/Luan2121/palindrome-app/tree/main/apps/client-apphttps://github.com/Luan2121/palindrome-app/tree/main/apps/client-app)
+   code](https://github.com/Luan2121/palindrome-app/tree/main/apps/client-app)
    
  - [Server App's source   
    code](https://github.com/Luan2121/palindrome-app/tree/main/apps/server-app)
