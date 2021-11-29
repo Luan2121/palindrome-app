@@ -12,7 +12,7 @@
     "start": "node ./build/index.js",
     "format": "standard --fix",
     "standard": "standard",
-    "docker": "docker build -t server-app:latest . && docker run --name server-app:latest -d -p 4000:4000"
+    "docker": "docker build -t server-app:latest . && docker run --name server-app -d -p 4000:4000 server-app:latest"
   },
   "keywords": [],
   "author": "Luan2121",

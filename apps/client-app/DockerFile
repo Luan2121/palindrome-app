@@ -1,5 +1,5 @@
 # set node version
-FROM node:12.0.0
+FROM node:12
 
 # set working directory
 WORKDIR usr/src/app
